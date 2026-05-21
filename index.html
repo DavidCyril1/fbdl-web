@@ -3,12 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=yes">
-    <link rel="icon" href="https://img.icons8.com/color/48/facebook-new.png" type="image/png">
-    <link rel="shortcut icon" href="https://img.icons8.com/color/48/facebook-new.png" type="image/png">
-    <meta name="description" content="Download Facebook videos in HD and SD quality. Fast, free, and easy to use on any device.">
-    <meta name="keywords" content="facebook video downloader, fb video downloader, download facebook videos, facebook to mp4, fb reel downloader">
+    
+    <!-- Favicon - Facebook style -->
+    <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg">
+    <link rel="shortcut icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg">
+    <link rel="apple-touch-icon" href="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg">
+    
+    <!-- WhatsApp / Social Media Preview -->
+    <meta property="og:title" content="Facebook Video Downloader | Download FB Videos in HD Free">
+    <meta property="og:description" content="Download any Facebook video, reel, or shared content in HD or SD quality. Fast, free, and easy to use on any device.">
+    <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg">
+    <meta property="og:image:width" content="512">
+    <meta property="og:image:height" content="512">
+    <meta property="og:url" content="https://fbdownloader.davidcyril.name.ng">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Facebook Video Downloader">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Facebook Video Downloader | Download FB Videos in HD Free">
+    <meta name="twitter:description" content="Download any Facebook video, reel, or shared content in HD or SD quality. Fast, free, and easy to use.">
+    <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Download Facebook videos in HD and SD quality. Fast, free, and easy to use on any device. Support for reels, public videos, and shared content.">
+    <meta name="keywords" content="facebook video downloader, fb video downloader, download facebook videos, facebook to mp4, fb reel downloader, facebook video saver">
     <meta name="author" content="David Cyril">
-    <title>Facebook Video Downloader | Download FB Videos in HD</title>
+    <meta name="theme-color" content="#1877f2">
+    
+    <title>Facebook Video Downloader | Download FB Videos in HD Free</title>
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -547,7 +571,7 @@
                 if (videoData.thumbnail && videoData.thumbnail.startsWith('http')) {
                     resultThumbnail.src = videoData.thumbnail;
                 } else {
-                    resultThumbnail.src = 'https://via.placeholder.com/300x250/1877f2/ffffff?text=Facebook+Video';
+                    resultThumbnail.src = 'https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg';
                 }
                 
                 // Find downloads array
@@ -618,8 +642,8 @@
     // Set placeholder
     urlInput.placeholder = 'https://www.facebook.com/share/v/15fNp5gHK4/ or https://fb.watch/...';
     
-    // Update page title and favicon dynamically
-    document.title = "Facebook Video Downloader | Download FB Videos in HD";
+    // Update document title for tab
+    document.title = "Facebook Video Downloader | Download FB Videos in HD Free";
 </script>
 </body>
 </html>
